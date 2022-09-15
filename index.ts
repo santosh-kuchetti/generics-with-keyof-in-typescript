@@ -19,4 +19,9 @@ const dogs = [
 ]
 
 console.log(data(dogs,"age"))  // dogs is the array and age will be the key
-console.log(data(dogs,"name"))
+console.log(data(dogs, "name")) 
+/*
+    we see in console like 
+    [ 12, 15 ]   // we map on the age
+    [ 'ksk', 'psk' ]  // we map on the name
+*/
